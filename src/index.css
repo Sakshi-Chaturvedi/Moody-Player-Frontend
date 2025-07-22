@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: "linear-gradient(135deg, #e3f2fd, #fff)";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: rgb(221, 227, 244);
+}
+
+
+.song-list-ui {
+  padding: 2rem;
+  background: #f9f9fb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ui-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.ui-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ui-song-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+.ui-song-card:hover {
+  transform: translateY(-2px);
+}
+
+.ui-info {
+  flex-grow: 1;
+}
+
+.ui-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #222;
+}
+
+.ui-artist {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.ui-controls {
+  margin-left: 1rem;
+}
+
+.ui-btn {
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.ui-btn:hover {
+  background: #005fa3;
+}
