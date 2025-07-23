@@ -67,7 +67,7 @@ export default function MoodDetector({ onMoodDetected, setSongs }) {
       // 🧠 Call your backend here using axios
       try {
         const res = await axios.get(
-          `${process.env.REACT_APP_BACKEND_URL}/songs?mood=${moodDetected}`
+          `http://localhost:3000/songs?mood=${moodDetected}`
         );
 
         setSongs(res.data.songs || []);
